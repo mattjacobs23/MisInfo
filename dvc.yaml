@@ -1,0 +1,42 @@
+stages:
+  compute-credit-bins:
+    cmd: python MisInfo/preprocessing/compute_credit_bins.py --train-data-path data/processed/cleaned_train_data.json
+      --output-path data/processed/optimal_credit_bins.json
+    deps:
+    - data/processed/cleaned_train_data.json
+    outs:
+    - data/processed/optimal_credit_bins.json
+  normalize-and-clean-data:
+    cmd: python MisInfo/preprocessing/data_preprocessing.py --train-data-path data/raw/train.tsv
+      --val-data-path data/raw/valid.tsv --test-data-path data/raw/test.tsv --output-dir
+      data/processed
+    deps:
+    - data/raw/test.tsv
+    - data/raw/train.tsv
+    - data/raw/valid.tsv
+    - MisInfo/preprocessing/data_preprocessing.py
+    outs:
+    - data/processed/cleaned_test_data.json
+    - data/processed/cleaned_train_data.json
+    - data/processed/cleaned_val_data.json
+  train-random-forest:
+    cmd: python MisInfo/train.py --config-file config/random_forest.json
+    deps:
+    - config/random_forest.json
+    - data/processed/cleaned_test_data.json
+    - data/processed/cleaned_train_data.json
+    - data/processed/cleaned_val_data.json
+    - data/processed/optimal_credit_bins.json
+    - MisInfo/train.py
+    outs:
+    - model_checkpoints/random_forest
+  train-roberta:
+    cmd: python MisInfo/train.py --config-file config/roberta.json
+    deps:
+    - config/roberta.json
+    - data/processed/cleaned_test_data.json
+    - data/processed/cleaned_train_data.json
+    - data/processed/cleaned_val_data.json
+    - MisInfo/train.py
+    outs:
+    - model_checkpoints/roberta
