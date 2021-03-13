@@ -1,0 +1,11 @@
+FROM tiangolo/uvicorn-gunicorn-fastapi:python3.8 as base
+
+ADD MisInfo /home/MisInfo/MisInfo
+ADD requirements.txt /home/MisInfo/
+ADD model_checkpoints/random_forest /home/MisInfo/random_forest
+
+WORKDIR /home/MisInfo
+
+ENV PYTHONPATH $PYTHONPATH:/home/MisInfo
+
+RUN pip install --no-cache-dir -r requirements.txt

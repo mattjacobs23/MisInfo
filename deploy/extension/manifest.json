@@ -1,0 +1,45 @@
+{
+  "name": "Misinformation Detector",
+  "version": "1.0",
+  "description": "Detect misinformation on your browser page",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "declarativeContent"
+  ],
+  "browser_action": {
+    "default_icon": {
+      "16": "pictures/thinking_emoji_16.png",
+      "32": "pictures/thinking_emoji_32.png",
+      "48": "pictures/thinking_emoji_48.png",
+      "128": "pictures/thinking_emoji_128.png"
+    }
+  },
+  "icons": {
+    "16": "pictures/thinking_emoji_16.png",
+      "32": "pictures/thinking_emoji_32.png",
+      "48": "pictures/thinking_emoji_48.png",
+      "128": "pictures/thinking_emoji_128.png"
+  },
+  "web_accessible_resources": [
+    "pictures/thinking_emoji_16.png",
+      "pictures/thinking_emoji_32.png",
+      "pictures/thinking_emoji_48.png",
+      "pictures/thinking_emoji_128.png"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "css": [
+        "content.css"
+      ],
+      "run_at": "document_end"
+    }
+  ],
+  "manifest_version": 2
+}
