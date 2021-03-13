@@ -1,3 +1,3 @@
 # MisInfo
 
-![Alt Text](MisInfo_recording.gif)
+![Alt Text](https://github.com/mattjacobs23/MisInfo/blob/main/MisInfo_recording.gif)
