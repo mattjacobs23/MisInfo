@@ -1,5 +1,5 @@
 # MisInfo
 ## A misinformation classifier powered by machine learning
 
-![demo](looping_recording.gif)
+![demo](MisInfo_loopingImage.gif)
 
