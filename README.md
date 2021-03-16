@@ -71,7 +71,7 @@ curl -X POST http://127.0.0.1:8000/api/predict-misinfo -d '{"text": "Some exampl
 
 ### Chrome Extension
 
-To interact with the model in the browser, go to Extensions > Manage Extensions. 
+To interact with the model in the browser, go to Extensions > Manage Extensions. You can also click on [this link](chrome://extensions/).
 
 Then click on "Load Unpacked" near the top left, and select the **deploy/extension** folder from the repository. 
 
