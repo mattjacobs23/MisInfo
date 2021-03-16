@@ -6,14 +6,14 @@ A misinformation classifier powered by machine learning
 This is a preliminary version of the project, trained on a smaller dataset. To see the bias present in this dataset, please see my exploratory data analysis [here](https://github.com/mattjacobs23/MisInfo/blob/main/notebooks/EDA_DataCleaning.ipynb))
 
 ## Features
+* **Exploratory data analysis** using [Pandas](https://pandas.pydata.org/).
 * **Random forest classifier** powered by [Scikit-learn](https://scikit-learn.org/stable/).
 * **RoBERTa** model powered by [HuggingFace Transformers](https://huggingface.co/transformers/) and [PyTorch Lightning](https://github.com/PyTorchLightning/pytorch-lightning).
 * **Data versioning** and configurable train/test pipelines using [DVC](https://github.com/iterative/dvc).
-* **Exploratory data analysis** using [Pandas](https://pandas.pydata.org/).
 * **Experiment tracking** and **logging** via [MLFlow](https://mlflow.org/).
-* **Continuous integration** with [Github actions](https://github.com/features/actions).
-* **Functionality tests** powered by [PyTest](https://docs.pytest.org/en/stable/) and [Great Expectations](https://greatexpectations.io/).
 * **Error** and **model feature analysis** via [SHAP](https://github.com/slundberg/shap).
+* **Functionality tests** powered by [PyTest](https://docs.pytest.org/en/stable/) and [Great Expectations](https://greatexpectations.io/).
+* **Continuous integration** with [Github actions](https://github.com/features/actions).
 * **Production-ready server** via [FastAPI](https://fastapi.tiangolo.com/) and [Gunicorn](https://gunicorn.org/).
 * **Chrome extension** for interacting with a model in the [browser](https://chrome.google.com/webstore/category/extensions?hl=en).
 
