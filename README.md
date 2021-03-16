@@ -7,6 +7,8 @@ This is a **preliminary** version of the project, trained on a small dataset (~1
 
 To gain a better undertsanding of this dataset, including what biases are present, please see my exploratory data analysis [here](https://github.com/mattjacobs23/MisInfo/blob/main/notebooks/EDA_DataCleaning.ipynb)
 
+I am currently trying to use the NELA-GT-2019 dataset, a large multi-Labelled news dataset, found [here](https://github.com/mgruppi/nela-gt-2019). Deep learning (RoBERTa) did not provide better results than the base random forest classifier on the small LIAR dataset, so I am currently trying deep learning techniques on the larger dataset.
+
 ## Features
 * **Exploratory data analysis** using [Pandas](https://pandas.pydata.org/).
 * **Random forest classifier** powered by [Scikit-learn](https://scikit-learn.org/stable/).
