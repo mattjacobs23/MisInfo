@@ -3,7 +3,9 @@ A misinformation classifier powered by machine learning
 
 ![demo](gifs/MisInfo_loopingImage.gif)
 
-This is a preliminary version of the project, trained on a smaller dataset. To see the bias present in this dataset, please see my exploratory data analysis [here](https://github.com/mattjacobs23/MisInfo/blob/main/notebooks/EDA_DataCleaning.ipynb))
+This is a **preliminary** version of the project, trained on a small dataset (~10k datapoints). 
+
+To gain a better undertsanding of this dataset, including what biases are present, please see my exploratory data analysis [here](https://github.com/mattjacobs23/MisInfo/blob/main/notebooks/EDA_DataCleaning.ipynb))
 
 ## Features
 * **Exploratory data analysis** using [Pandas](https://pandas.pydata.org/).
