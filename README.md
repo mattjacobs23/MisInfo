@@ -75,3 +75,6 @@ Then click on "Load Unpacked" near the top left, and select the **deploy/extensi
 
 Once this extension is enabled you should be able to highlight text in your Chrome browser and recieve classification predictions.
 
+### Credits
+
+Special thanks to [Mihail Eric](https://www.mihaileric.com/) for drastically improving my understanding of machine learning architecture. 
