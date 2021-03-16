@@ -71,5 +71,7 @@ curl -X POST http://127.0.0.1:8000/api/predict-misinfo -d '{"text": "Some exampl
 
 To interact with the model in the browser, go to Extensions > Manage Extensions. 
 
-Then click on "Load Unpacked" near the top left, and select the **extensions** folder from the repository. 
+Then click on "Load Unpacked" near the top left, and select the **deploy/extension** folder from the repository. 
+
+Once this extension is enabled you should be able to highlight text in your Chrome browser and recieve classification predictions.
 
