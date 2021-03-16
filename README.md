@@ -23,5 +23,7 @@ Go to the root directory of the repo and start a virtual environment. Then run:
 pip install -r requirements.txt
 ```
 You can download the LIAR dataset using [this link](https://www.cs.ucsb.edu/~william/data/liar_dataset.zip), which includes 12.8k human labeled short statements from POLITIFACT.COM's API. Each statement is evaluated by a POLITIFACT.COM editor for its truthfulness.
+
 Move the test.tsv, train.tsv, and valid.tsv to data/raw
+
 You're ready to go!
