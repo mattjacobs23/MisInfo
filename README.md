@@ -67,7 +67,7 @@ From here you can interact with the API using [Postman](https://www.postman.com/
 curl -X POST http://127.0.0.1:8000/api/predict-misinfo -d '{"text": "Some example string."}'
 ```
 
-### Chrome Extensions
+### Chrome Extension
 
 To interact with the model in the browser, go to Extensions > Manage Extensions. 
 
