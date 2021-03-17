@@ -1,7 +1,12 @@
 # MisInfo
 A misinformation classifier powered by machine learning
 
-![demo](gifs/MisInfo_loopingImage.gif)
+## Motivation
+The recent proliferation of social media and other digital spaces has significantly changed the way in which people acquire information. According to the 2020 Pew Research Center survey, about half of U.S. adults (53%) say they get news from social media at least occasionally. Disingenuous information can spread virally and often faster than true information. In many of cases, even when correct information later disseminates, the rapid spread of misinformation can have devastating consequences. Therefore, there is an urgent need for the development of automatic detection of misinformation to help stop the viral spread of such news. 
+
+MisInfo aims to be a misinformation detection system which can detect truthfulness of snippets of text from different sources including political debates, social media platforms, etc.
+
+![Demo](gifs/MisInfo_loopingImage.gif)
 
 This is a **preliminary** version of the project, trained on a small dataset (~10k datapoints). 
 
