@@ -89,5 +89,5 @@ Once this extension is enabled you should be able to highlight text in your Chro
 Special thanks to [Mihail Eric](https://www.mihaileric.com/) for drastically improving my understanding of machine learning architecture. 
 
 ## About Me
-I have a master of science in physics and am transitioning to the AI/Machine Learning industry. If you have any questions about me, this project, or anything else, feel free to reach out 
+I have a master of science in physics and am transitioning to the AI/Machine Learning industry. If you have any questions about me, this project, or anything else, feel free to reach out: 
 * [LinkedIn](https://www.linkedin.com/in/matt-jacobs-23007/)
