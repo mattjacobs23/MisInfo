@@ -44,6 +44,8 @@ To train the [random forest baseline](https://github.com/mattjacobs23/MisInfo/bl
 dvc repro train-random-forest
 ```
 
+You can also enter extra parameters for the model in the configuration file, found in config/random_forest.json.
+
 Your output should look something like the following:
 ```
 INFO - 2021-03-15 18:04:40,389 - feature_eng.py - Creating featurizer from scratch...
