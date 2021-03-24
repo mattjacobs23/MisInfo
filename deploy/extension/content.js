@@ -41,10 +41,10 @@ document.addEventListener("mouseup", (event) => {
             spanElem.style.top = `${window.scrollY + event.clientY}px`;
             let label;
             if (!data.label) {
-                label = "FALSE!";
+                label = "Careful!";
                 spanElem.style.backgroundColor = "red";
             } else {
-                label = "TRUE!";
+                label = "Ok!";
                 spanElem.style.backgroundColor = "#4be371";
             }
             spanElem.innerHTML = `
