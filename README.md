@@ -6,7 +6,7 @@ The recent proliferation of social media and other digital spaces has significan
 
 MisInfo aims to be a misinformation detection system which can detect truthfulness of snippets of text from different sources including political debates, social media platforms, etc.
 
-![Demo](gifs/croppedLoopRecording.gif)
+![Demo](gifs/cropLoopingImage2.gif)
 
 This is a **preliminary** version of the project, trained on a small dataset (~12k datapoints). 
 
