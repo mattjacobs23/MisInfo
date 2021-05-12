@@ -8,7 +8,7 @@ MisInfo aims to be a misinformation detection system which can detect truthfulne
 
 ![Demo](gifs/cropLoopingImage2.gif)
 
-This is a **preliminary** version of the project, trained on a small dataset (~12k datapoints). 
+This project is still a work in progress, with future improvements including building a full data flywheel allowing users to live-annotate data. 
 
 To gain a better undertsanding of this dataset, including what biases are present, please see my exploratory data analysis [here](https://github.com/mattjacobs23/MisInfo/blob/main/notebooks/EDA_DataCleaning.ipynb)
 
